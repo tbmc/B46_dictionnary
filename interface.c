@@ -103,7 +103,7 @@ void lancer_interface()
 
     type = interface_menu();
     printf("\nChargement du dictionnaire...\n\n");
-    dico = fichier_lire_fichier("B46_wiktionnaire.dat", type);
+    dico = fichier_lire_fichier("DataFiles/B46_wiktionnaire.dat", type);
     while(commande != 5)
     {
         commande = select_command(clef, def);
